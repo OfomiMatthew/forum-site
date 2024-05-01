@@ -46,6 +46,15 @@
         <a href="{% url 'forum:post_share' post.id %}" class="btn btn-primary">Share this post</a>
       </p>
 
+      <h2>Similar posts</h2>
+      
+      {% for post in similar_posts  %}
+      <p><a href="{{post.get_absolute_url}}">{{post.title}}</a></p>
+        {% empty %}
+        There are no similar posts yet.
+      {% endfor %}
+        
+
       <h2>{{ comments.count }} comment{{ comments.count|pluralize }}</h2>
       {% for comment in comments %}
       <div class="card mb-3">
