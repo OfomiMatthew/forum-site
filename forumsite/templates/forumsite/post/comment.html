@@ -1,4 +1,5 @@
 {% extends "forumsite/base.html" %}
+{% comment %} {% extends "forumsite/base.html" %}
 
 {% block title %}Add a comment{% endblock title %}
 {% block content %}
@@ -12,4 +13,27 @@
   
 
 {% endblock content %}
+ {% endcomment %}
 
+
+
+{% block title %}Add a comment{% endblock title %}
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      {% if comment %}
+      <div class="alert alert-success" role="alert">
+        <h2>Your comment has been added</h2>
+        <p><a href="{{ post.get_absolute_url }}">Back to the post</a></p>
+      </div>
+      {% else %}
+      <h2>Add a comment</h2>
+      {% include "forumsite/post/includes/comment_form.html" %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

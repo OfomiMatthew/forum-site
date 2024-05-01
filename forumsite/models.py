@@ -33,6 +33,7 @@ class Post(models.Model):
   status = models.CharField(max_length=2,choices = Status.choices,default = Status.DRAFT)
   objects = models.Manager() #default manager
   published = PublishedManager()  #custom manager
+  tags = TaggableManager()
 
   class Meta:
     ordering = ['-publish']

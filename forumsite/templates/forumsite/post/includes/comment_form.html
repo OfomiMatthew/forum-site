@@ -1,7 +1,32 @@
-<h2>Add a new comment</h2>
+{% comment %} <h2>Add a new comment</h2>
 <form action="{% url 'forum:post_comment' post.id %}" method='post'>
 {{form.as_p}}
 {% csrf_token %}
 <p><input type="submit" value="Add comment"></p>
 
-</form>
+</form> {% endcomment %}
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2>Add a new comment</h2>
+        <form action="{% url 'forum:post_comment' post.id %}" method="post" class="mb-4">
+          {% csrf_token %}
+          <div class="mb-3">
+            <label for="id_name" class="form-label">Your Name</label>
+            {{ form.name }}
+          </div>
+          <div class="mb-3">
+            <label for="id_email" class="form-label">Your Email</label>
+            {{ form.email }}
+          </div>
+          <div class="mb-3">
+            <label for="id_body" class="form-label">Comment</label>
+            {{ form.body }}
+          </div>
+          <button type="submit" class="btn btn-primary">Add Comment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

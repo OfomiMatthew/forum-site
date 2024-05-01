@@ -1,4 +1,6 @@
-{% extends 'forumsite/base.html' %} 
+{% extends 'forumsite/base.html' %}
+
+{% comment %} {% extends 'forumsite/base.html' %} 
 
 {% block title %} {{post.title}} {% endblock %} 
 
@@ -25,4 +27,38 @@
 {% endfor %}
 {% include "forumsite/post/includes/comment_form.html" %}
   
+{% endblock %} {% endcomment %}
+
+
+
+{% block title %} {{ post.title }} {% endblock title %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>{{ post.title }}</h1>
+      <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
+      <div class="mb-4">
+        {{ post.body | linebreaks }}
+      </div>
+      <p>
+        <a href="{% url 'forum:post_share' post.id %}" class="btn btn-primary">Share this post</a>
+      </p>
+
+      <h2>{{ comments.count }} comment{{ comments.count|pluralize }}</h2>
+      {% for comment in comments %}
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Comment {{ forloop.counter }} by {{ comment.name }} {{ comment.created }}</h5>
+          <p class="card-text">{{ comment.body | linebreaks }}</p>
+        </div>
+      </div>
+      {% empty %}
+      <p>There are no comments</p>
+      {% endfor %}
+      {% include "forumsite/post/includes/comment_form.html" %}
+    </div>
+  </div>
+</div>
 {% endblock %}
