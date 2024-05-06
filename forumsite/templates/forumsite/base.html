@@ -1,4 +1,4 @@
-{% comment %} {% load static %}  {% endcomment %}
+
 
 {% load forumsite_tags %}
 <!DOCTYPE html>
@@ -19,6 +19,9 @@
       <h2 class="">My Blog</h2>
       <p>This is my blog</p>
       <p>Total number of Posts: {% my_tag %}</p>
+      <p>
+        <a href="{% url 'forumsite:post_feed' %}">Subscribe to my RSS feed</a>
+      </p>
       <h3 class="fs-4">Latest posts</h3>
       {% show_latest_posts 3 %}
       <h3 class="fs-4">Most commented posts</h3>
