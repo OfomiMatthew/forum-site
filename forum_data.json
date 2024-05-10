@@ -1,0 +1,1041 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-04-27T07:32:45.058Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "The Environment and You",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-04-27T07:45:17.492Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "UEFA Champions league",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-04-27T07:46:13.091Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Religion",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-04-27T07:47:37.544Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Computer programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-04-27T08:00:57.122Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-04-27T08:02:35.009Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Emotional intelligence",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-04-27T08:06:17.413Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Christian Relationship",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-05-01T11:41:12.614Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "UEFA Champions league",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-05-01T12:12:21.774Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Euros 2024",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-05-01T17:19:06.167Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Artificial intelligence",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-05-01T17:19:44.918Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Artificial intelligence",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-05-01T17:23:35.464Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-05-06T21:38:39.414Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Software Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-05-06T21:58:59.724Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-05-06T22:58:07.165Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Software Engineering",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 7,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 7,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 7,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 7,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 8,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 8,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 8,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 8,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 9,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 9,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 9,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 9,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 10,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 10,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 10,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 10,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$lfXHX1lbJvqm8FwLeVpuTm$sEHMiwCc/gLAPlUc8pzCUDZPHYNpQR3cP3N8uum0byg=",
+    "last_login": "2024-05-06T21:36:04.811Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-04-27T07:30:47.381Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "forumsite",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "forumsite",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fh5yah4aawhpsfjzdk7v7fs0g8ax6ehm",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleG_8o6XMGy-vd4ABypDipEHeHSCmgfTPzXiLlba1p67ykicRFgDj9bpjLg9sO6J7bbZZlbusyodwVedAuh5n4eT3cv4Oae_3WHsCw8wiZo8azNtGNllhpZ8EaYzRmAgI7akIIVJwi5TBYFyJ7b1G8P8aRNzs:1s460C:loOhu3OiLwOb7RaRSfYonkZOfN0l6uuQfBSGTCbL5eU",
+    "expire_date": "2024-05-20T21:36:04.827Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mmuq5xmyou4hu0hpvq866n9gbtbryv6j",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleG_8o6XMGy-vd4ABypDipEHeHSCmgfTPzXiLlba1p67ykicRFgDj9bpjLg9sO6J7bbZZlbusyodwVedAuh5n4eT3cv4Oae_3WHsCw8wiZo8azNtGNllhpZ8EaYzRmAgI7akIIVJwi5TBYFyJ7b1G8P8aRNzs:1s0cWM:FEBcMB4ItB_J-Jrv-lblj5CSUiQihvm5Ij3lywia2tQ",
+    "expire_date": "2024-05-11T07:30:54.683Z"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 1,
+  "fields": {
+    "title": "The Environment and You",
+    "slug": "the-environment-and-you",
+    "author": 1,
+    "body": "Environment, the complex of physical, chemical, and biotic factors that act upon an organism or an ecological community and ultimately determine its form and survival.",
+    "publish": "2024-04-27T07:31:06Z",
+    "created": "2024-04-27T07:32:45.043Z",
+    "updated": "2024-04-27T07:32:45.043Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 2,
+  "fields": {
+    "title": "UEFA Champions league",
+    "slug": "uefa-champions-league",
+    "author": 1,
+    "body": "The UEFA Champions League (previously known as the European Cup, abbreviated as UCL, or sometimes, UEFA CL) is an annual club association football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the competition winners through a round robin group stage to qualify for a double-legged knockout format, and a single leg final. It is the most-watched club competition in the world and the third most-watched football competition overall, behind only the UEFA European Championship and the FIFA World Cup. It is one of the most prestigious football tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of their national associations",
+    "publish": "2024-04-27T07:44:18Z",
+    "created": "2024-04-27T07:45:17.492Z",
+    "updated": "2024-05-01T11:41:12.583Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 3,
+  "fields": {
+    "title": "Religion",
+    "slug": "religion",
+    "author": 1,
+    "body": "Religion, human beings’ relation to that which they regard as holy, sacred, absolute, spiritual, divine, or worthy of especial reverence. It is also commonly regarded as consisting of the way people deal with ultimate concerns about their lives and their fate after death. In many traditions, this relation and these concerns are expressed in terms of one’s relationship with or attitude toward gods or spirits;",
+    "publish": "2024-04-27T07:45:21Z",
+    "created": "2024-04-27T07:46:13.091Z",
+    "updated": "2024-04-27T07:46:13.091Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 4,
+  "fields": {
+    "title": "Computer programming",
+    "slug": "computer-programming",
+    "author": 1,
+    "body": "Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks.[1][2] It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing code in one or more programming languages. Programmers typically use high-level programming languages that are more easily intelligible to humans than machine code, which is directly executed by the central processing unit. Proficient programming usually requires expertise in several different subjects, including knowledge of the application domain, details of programming languages and generic code libraries, specialized algorithms, and formal logic.",
+    "publish": "2024-04-27T07:46:46Z",
+    "created": "2024-04-27T07:47:37.544Z",
+    "updated": "2024-04-27T07:47:37.544Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 5,
+  "fields": {
+    "title": "Django",
+    "slug": "django",
+    "author": 1,
+    "body": "Django (/ˈdʒæŋɡoʊ/ JANG-goh; sometimes stylized as django)[6] is a free and open-source, Python-based web framework that runs on a web server. It follows the model–template–views (MTV) architectural pattern.[7][8] It is maintained by the Django Software Foundation (DSF), an independent organization established in the US as a 501(c)(3) non-profit.",
+    "publish": "2024-04-27T08:00:00Z",
+    "created": "2024-04-27T08:00:57.122Z",
+    "updated": "2024-05-01T17:23:35.448Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 6,
+  "fields": {
+    "title": "Emotional intelligence",
+    "slug": "emotional-intelligence",
+    "author": 1,
+    "body": "Emotional intelligence (EI) is defined as the ability to perceive, use, understand, manage, and handle emotions. People with high emotional intelligence can recognize their own emotions and those of others, use emotional information to guide thinking and behavior, discern between different feelings and label them appropriately, and adjust emotions to adapt to environments.[1]",
+    "publish": "2024-04-27T08:02:09Z",
+    "created": "2024-04-27T08:02:35.009Z",
+    "updated": "2024-04-27T08:02:35.009Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 7,
+  "fields": {
+    "title": "Christian Relationship",
+    "slug": "christian-relationship",
+    "author": 1,
+    "body": "We want to be close to people and to know that they love us. We want to experience friendship, nearness, and intimacy. We want to know and be known.\r\n\r\nBut how do we get these types of relationships? We’ve all experienced the many challenges and difficulties that come with any relationship: disagreements, differences, misunderstandings, offenses, and much more. How can we work through these issues in a helpful and healthy manner?\r\n\r\nMany of us were never taught how to have healthy relationships. What’s more, many of us didn’t grow up in a home where solid relationships were modeled.\r\n\r\nThankfully, God’s word shows us what relationships should look like. It gives us guidance on how to connect with others in ways that are a blessing to us and honor God.",
+    "publish": "2024-04-27T08:05:15Z",
+    "created": "2024-04-27T08:06:17.413Z",
+    "updated": "2024-04-27T08:06:17.413Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 8,
+  "fields": {
+    "title": "Euros 2024",
+    "slug": "euros-2024",
+    "author": 1,
+    "body": "The 2024 UEFA European Football Championship, commonly referred to as UEFA Euro 2024 (stylised as UEFA EURO 2024) or simply Euro 2024, will be the 17th edition of the UEFA European Championship, the quadrennial international football championship organised by UEFA for the European men's national teams of its member associations. Germany will host the tournament, which is scheduled to take place from 14 June to 14 July 2024 and the winner will later compete in the 2025 CONMEBOL–UEFA Cup of Champions against the 2024 Copa América winner. 24 teams will compete, with Georgia as the only team making their first appearance in a UEFA European Championship finals or a major international tournament.",
+    "publish": "2024-05-01T12:11:22Z",
+    "created": "2024-05-01T12:12:21.758Z",
+    "updated": "2024-05-01T12:12:21.758Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.post",
+  "pk": 9,
+  "fields": {
+    "title": "Artificial intelligence",
+    "slug": "artificial-intelligence",
+    "author": 1,
+    "body": "Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, particularly computer systems. It is a field of research in computer science that develops and studies methods and software which enable machines to perceive their environment and uses learning and intelligence to take actions that maximize their chances of achieving defined goals.[1] Such machines may be called AIs.",
+    "publish": "2024-05-01T17:17:14Z",
+    "created": "2024-05-01T17:19:06.135Z",
+    "updated": "2024-05-01T17:19:44.918Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "forumsite.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "Android Client Id",
+    "email": "mofomi@saconsulting.ai",
+    "body": "testing",
+    "created": "2024-04-27T07:49:35.386Z",
+    "updated": "2024-04-27T07:49:35.386Z",
+    "active": true
+  }
+},
+{
+  "model": "forumsite.comment",
+  "pk": 2,
+  "fields": {
+    "post": 6,
+    "name": "Matthew Ofomi",
+    "email": "ofomimatthew7@gmail.com",
+    "body": "test",
+    "created": "2024-04-27T08:24:15.290Z",
+    "updated": "2024-04-27T08:24:15.290Z",
+    "active": true
+  }
+},
+{
+  "model": "forumsite.comment",
+  "pk": 3,
+  "fields": {
+    "post": 6,
+    "name": "Matthew Ofomi",
+    "email": "ofomimatthew7@gmail.com",
+    "body": "test",
+    "created": "2024-04-27T08:24:42.721Z",
+    "updated": "2024-04-27T08:24:42.721Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "hygiene",
+    "slug": "hygiene"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "environment",
+    "slug": "environment"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "health",
+    "slug": "health"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Football",
+    "slug": "football"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Sports",
+    "slug": "sports"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Technology",
+    "slug": "technology"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Computer Science",
+    "slug": "computer-science"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 9,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 9,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 9,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 9,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 9,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 6,
+    "content_type": 9,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": 9,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 6,
+    "content_type": 9,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 7,
+    "content_type": 9,
+    "object_id": 5
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
